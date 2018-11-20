@@ -16,9 +16,9 @@ hr {
 }
 h1 {
 	text-align: center;
+	text-shadow: 5px 5px 5px black;
 }
 .heading {
-	text-decoration: underline;
 	font-weight: bold;
 }
 p {
@@ -32,8 +32,7 @@ td {
 }
 /*This specifies every first letter of every <li> element */
 li:first-letter {
-	font-size: 40px;
-	font-style: italic;
+	font-style: bold;
 }
 #border-radius {
 	border: 2px solid white;
