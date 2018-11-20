@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New page for stuff and things</title>
+	<!-- ^This information  appears in the webpage's tab -->
+	<link href="title.ico" rel="icon" type="image/x-icon"/>
+	<!-- ^Locates the title.ico file and uses it in the webpage's tab -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<!-- ^Links to an external CSS file for use in this webpage -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<script src="js/myJavaScript.js"></script>
+	<!-- ^Links to a JS file, here located in th "js" folder for use in this webpage --> 
+</head>
+
+<body>
+	<h1 id="topOfPage" class="heading">How to write a list</h1>
+	<ul class="unorderedList">
+		<li>Start like this</li>
+		<li>Continue like this</li>
+		<li>Finish like this</li>
+	</ul>
+	<br/><hr/>
+	<h1 class="heading">How to write an ordered list</h1>
+	<ol type="i">
+		<li>Here is number one</li>
+		<li>Here is number two</li>
+		<li>And finally, number three</li>
+	</ol>
+	<br/><hr/>
+	<h1 class="heading">Writing a sample link</h1>
+	<div class="linkAlign">
+		<a href="https://google.com" title="Google Homepage" id="GoogleLink" target="_blank">Test Link</a>
+	</div>
+	<br/><hr/>
+	<div id="border-radius">
+		<h1 class="heading">Formatting text</h1>
+		<p>Sometimes text can run on for longer than you'd like. 
+		<br/>In situations such as these, a line break is essential.</p>
+		<p>Other times you will require a new paragraph.</p>
+	</div>
+	<br/><hr/>
+	<h1 class="heading">Creating a table</h1>
+	<table class="center_table" border="1" width="50%" cellspacing="0" 
+	cellpadding="5">
+		<tr>
+			<th colspan="2" width="66%">Name</th>
+			<th width="33%">Age</th>
+			<!-- colspan merges a specified number of cells in a column-->
+		</tr>
+		<tr>
+			<td width="33%">George</td>
+			<td width="33%">Burr</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td width="33%">Abbey</td>
+			<td width="33%">Cape</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td width="33%">Francesca</td>
+			<td width="33%">Burr</td>
+			<td>29</td>
+		</tr>
+	</table>
+	<br/><hr/>
+	<div class="input_field">
+		<input type="text" name="typeInMe">
+		<input type="password" name="typeInMeSecretly">
+		<select name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+			<option value="NA" disabled="true" selected="true">Select Gender</option>
+		</select>
+		1 <input type="radio" name=Radio id=rd1 value=rad1>
+		2 <input type="radio" name=Radio id=rd2 value=rad2>
+		3 <input type="radio" name=Radio id=rd3 value=rad3>
+		<br/><br/>
+		<input type="button" value="My Button">
+		<input type="reset" value="Reset">
+		<!-- A reset type button is used inside a <form></form> element to clear any inputted date back to default -->
+		<input type="submit" value="Submit"><br/><br/><br/><br/>
+		<!-- A submit button type is used inside a <form></form> element to submit inputted data to the server -->
+		<form method="post" action="index.html">
+			<input type="text" name="name">
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
+	</div>
+	<br /><br />
+	<div class="textArea">
+	<textarea></textarea>
+	</div>
+	<br/><hr/>
+	<video id="test_video" controls="controls">
+		<source src="video.mp4" type="video/mp4" />
+	</video>
+	<!-- ^Adds a video to display on your webpage, while <controls="controls" displays the video controls to the user -->
+	<br/><hr/>
+	<audio id="test_audio" controls="controls">
+		<source src="audio.mp3" type="audio/mpeg" />
+		Your browser is too old or doesn't support MP3
+	</audio>
+	<br/><hr/>		
+	<div class="colourBox">
+		<div class="colourRed">&nbsp;</div>
+		<div class="colourBlue">&nbsp;</div>
+		<div class="colourGreen">&nbsp;</div>
+		<div class="colourBlack">&nbsp;</div>
+	</div>
+	<br/><hr/>
+	<div class="linkAlign">
+		<a href="#topOfPage">Go to top</a>
+	</div>
+	<br/><hr/>
+</body>
+</html>
