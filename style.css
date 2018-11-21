@@ -16,7 +16,7 @@ hr {
 }
 h1 {
 	text-align: center;
-	text-shadow: 5px 5px 10px black;
+	text-shadow: 3px 3px 10px black;
 }
 .heading {
 	font-weight: bold;
@@ -37,6 +37,7 @@ li:first-letter {
 #border-radius {
 	border: 2px solid white;
 	border-radius: 50px 50px 50px 0px;
+	box-shadow: 5px 5px 50px black;
 }
 input:focus {
 	border: 2px solid #BF7314;
