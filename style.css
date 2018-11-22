@@ -116,7 +116,7 @@ All link styling should follow the LoVe/HAte rule order, which is Link, Visited,
     text-align: center; 
     text-decoration: none;
 	display: inline-block;
-	box-shadow: 5px 5px 50px 5px black;
+	box-shadow: 5px 5px 100px 5px black;
 }
 .standardLink:hover, .standardLink:active {
 	background-color: #BF7314;
